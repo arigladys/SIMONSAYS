@@ -1,0 +1,49 @@
+.container {
+	text-align: -webkit-auto;
+}
+.user-name {
+	font-weight: 600;
+	margin: 0 20px 0 8px;
+}
+.avatar {
+	margin-top: 16px;
+}
+button {
+	padding: 10px;
+	font-weight: 600;
+}
+.short-title {
+	visibility: hidden;
+}
+@media only screen and (max-width: 700px) {
+	/* a {
+		font-size: 12px !important;
+		font-weight: 600;
+	}*/
+	.user-name {
+		/* visibility: hidden;
+		font-size: 12px;
+		font-weight: 500; */
+		margin: 0 7px 0 4px;
+	}
+	.short-title {
+		visibility: visible;
+	}
+	.long-title {
+		visibility: hidden;
+	}
+}
+/* @media only screen and (min-width: 500px) and (max-width: 630px) {
+	a {
+		font-size: 16px !important;
+		font-weight: 600;
+	}
+	#user-name {
+		font-size: 16px;
+		font-weight: 500;
+		margin: 0 7px 0 4px;
+	}
+} */
+input {
+	color: black;
+}

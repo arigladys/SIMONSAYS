@@ -1,0 +1,21 @@
+#root {
+	text-align: center;
+}
+.dual {
+	display: inline-flex;
+	text-align: center;
+	align-items: center;
+}
+.dual1 {
+	display: flex;
+}
+.dual2 {
+	padding: 20px;
+	display: flex;
+}
+.dual2 h1 {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
